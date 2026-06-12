@@ -1,0 +1,45 @@
+<style>
+  .mode-landscape .sl-layout { flex-direction: row; align-items: center; }
+  .mode-portrait .sl-layout { flex-direction: column; }
+  .mode-landscape .sl-left { width: 38%; }
+  .mode-portrait .sl-left { width: 100%; margin-bottom: 2rem; }
+  .mode-landscape .sl-right { width: 62%; }
+  .mode-portrait .sl-right { width: 100%; }
+</style>
+<section class="w-full h-full overflow-auto bg-white">
+  <div class="sl-layout flex h-full p-12 gap-10">
+    <!-- Left: summary -->
+    <div class="sl-left flex flex-col justify-center">
+      <span class="text-xs font-semibold tracking-widest uppercase text-rose-500 mb-4 block">Manfaat</span>
+      <h2 class="text-4xl font-black text-slate-900 leading-tight mb-5">Identitas yang mudah diingat</h2>
+      <p class="text-slate-500 leading-relaxed mb-8">Satu halaman personal yang bicara langsung — mewakili Veronika tanpa kerumitan teknis apapun.</p>
+      <div class="p-6 bg-rose-600 rounded-2xl">
+        <p class="text-rose-200 text-xs font-semibold uppercase tracking-widest mb-2">Kesan utama</p>
+        <p class="text-white text-2xl font-black leading-tight">Langsung. Personal. Berkesan.</p>
+      </div>
+    </div>
+    <!-- Right: metric cards -->
+    <div class="sl-right grid grid-cols-2 gap-4 content-center">
+      <div class="p-6 bg-slate-50 rounded-2xl border border-slate-100">
+        <p class="text-xs text-slate-400 uppercase tracking-widest mb-2">Kehadiran Digital</p>
+        <p class="text-4xl font-black text-slate-900 mb-1">1</p>
+        <p class="text-sm text-slate-500">URL terpusat untuk identitas Veronika</p>
+      </div>
+      <div class="p-6 bg-rose-50 rounded-2xl border border-rose-100">
+        <p class="text-xs text-rose-400 uppercase tracking-widest mb-2">Fokus Pesan</p>
+        <p class="text-4xl font-black text-rose-700 mb-1">100%</p>
+        <p class="text-sm text-slate-500">Satu pernyataan kuat, tanpa gangguan</p>
+      </div>
+      <div class="p-6 bg-rose-50 rounded-2xl border border-rose-100">
+        <p class="text-xs text-rose-400 uppercase tracking-widest mb-2">Waktu Load</p>
+        <p class="text-4xl font-black text-rose-700 mb-1">&lt; 1s</p>
+        <p class="text-sm text-slate-500">Halaman ringan, langsung tampil</p>
+      </div>
+      <div class="p-6 bg-slate-50 rounded-2xl border border-slate-100">
+        <p class="text-xs text-slate-400 uppercase tracking-widest mb-2">Kemudahan Berbagi</p>
+        <p class="text-4xl font-black text-slate-900 mb-1">∞</p>
+        <p class="text-sm text-slate-500">Satu link, bisa dibagikan ke siapa saja</p>
+      </div>
+    </div>
+  </div>
+</section>
