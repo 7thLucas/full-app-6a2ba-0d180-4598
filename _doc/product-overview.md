@@ -1,0 +1,1 @@
+buatin aplikasi sederhana landing page 1 halaman 1 section tulisannya 'Veronikako, Veronika yang onstrom'

@@ -1,0 +1,11 @@
+apiVersion: v1
+kind: Service
+metadata:
+  name: abbb27k0-4598-development-svc
+  namespace: qb-prototypes
+spec:
+  selector:
+    app: abbb27k0-4598-development
+  ports:
+  - port: 80
+    targetPort: 3000
