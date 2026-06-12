@@ -1,0 +1,41 @@
+<style>
+  .mode-landscape .sl-layout { flex-direction: row; }
+  .mode-portrait .sl-layout { flex-direction: column; }
+  .mode-landscape .sl-left { width: 50%; }
+  .mode-portrait .sl-left { width: 100%; }
+  .mode-landscape .sl-right { width: 50%; }
+  .mode-portrait .sl-right { width: 100%; }
+</style>
+<section class="w-full h-full overflow-auto bg-white">
+  <div class="sl-layout flex h-full">
+    <!-- Problem -->
+    <div class="sl-left flex flex-col justify-center p-12 bg-slate-50">
+      <span class="text-xs font-semibold tracking-widest uppercase text-slate-400 mb-6">Masalah</span>
+      <h2 class="text-3xl font-bold text-slate-900 mb-4 leading-snug">Identitas digital yang tersebar tanpa fokus</h2>
+      <p class="text-slate-500 leading-relaxed mb-6">Di tengah kebisingan digital, sulit punya satu tempat yang benar-benar milikmu — yang bicara langsung, tanpa filter.</p>
+      <ul class="space-y-3">
+        <li class="flex items-start gap-3">
+          <span class="w-2 h-2 rounded-full bg-rose-400 mt-2 flex-shrink-0"></span>
+          <span class="text-slate-600 text-sm">Banyak platform, tidak ada yang terasa personal</span>
+        </li>
+        <li class="flex items-start gap-3">
+          <span class="w-2 h-2 rounded-full bg-rose-400 mt-2 flex-shrink-0"></span>
+          <span class="text-slate-600 text-sm">Pesan inti tenggelam dalam konten lain</span>
+        </li>
+        <li class="flex items-start gap-3">
+          <span class="w-2 h-2 rounded-full bg-rose-400 mt-2 flex-shrink-0"></span>
+          <span class="text-slate-600 text-sm">Tidak ada satu URL yang mewakili segalanya</span>
+        </li>
+      </ul>
+    </div>
+    <!-- Solution -->
+    <div class="sl-right flex flex-col justify-center p-12 bg-rose-600">
+      <span class="text-xs font-semibold tracking-widest uppercase text-rose-200 mb-6">Solusi</span>
+      <h2 class="text-3xl font-bold text-white mb-4 leading-snug">Satu halaman. Satu pesan. Selalu diingat.</h2>
+      <p class="text-rose-100 leading-relaxed mb-8">Veronikako hadir sebagai ruang digital yang tenang dan fokus — hanya satu pernyataan, tepat sasaran.</p>
+      <div class="p-5 bg-white bg-opacity-15 rounded-2xl border border-white border-opacity-20">
+        <p class="text-white font-semibold text-xl italic leading-relaxed">"Veronikako, Veronika yang onstrom"</p>
+      </div>
+    </div>
+  </div>
+</section>
